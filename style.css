@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Red+Hat+Mono:wght@300;400;500;600;700&display=swap');
+body {
+  background-image: url('https://ak.picdn.net/shutterstock/videos/14827933/thumb/1.jpg');
+  background-attachment: fixed;
+}
+header {
+  text-align: center;
+  padding-bottom: 0.75em;
+  background-color: #98fdf8;
+  opacity: 60%;
+  padding: 100px;
+  margin: 20px;
+  
+}
+h1,h2 {
+    font-family: 'red hat mono', sans-serif;
+}
