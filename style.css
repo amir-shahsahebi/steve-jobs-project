@@ -13,8 +13,9 @@ body {
 }
 header {
   display: flex;
-  flex-flow: row;
+  /* flex-flow: row; */
   align-items: center;
+  height: 300px;
 }
 header > div {
   text-align: center;
@@ -26,6 +27,7 @@ h1 {
 }
 h2 {
   text-transform: lowercase;
+  line-height:2em ;
 }
 
 header > img {
@@ -36,14 +38,28 @@ header > img {
   border: solid 5px;
   box-shadow: 10px 5px 5px black;
 }
-section {
+section > p {
   padding: 0px 30px;
   /* margin: 50px 50px; */
   text-align: center;
   font-size: 18px;
   font-weight: 600;
+  line-height: 2em;
 }
 .second-section {
   display: flex;
-  flex-direction: column ;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-weight: 500;
+  text-align: center;
+  height: auto;  
+}
+section > div {
+  padding: 10px;
+  margin: 10px;
+  background: rgb(206, 247, 250);
+  flex: 4;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  text-shadow: rgb(153, 153, 151) 1px 1px 10px;
+
 }
