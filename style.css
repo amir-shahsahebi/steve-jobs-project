@@ -1,17 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Red+Hat+Mono:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Red+Hat+Mono:wght@300;400;500;600;700&display=swap");
 body {
-  background-image: url('https://ak.picdn.net/shutterstock/videos/14827933/thumb/1.jpg');
+  background-image: url("https://ak.picdn.net/shutterstock/videos/14827933/thumb/1.jpg");
   background-attachment: fixed;
-}
-header {
-  text-align: center;
-  padding-bottom: 0.75em;
-  background-color: #98fdf8;
-  opacity: 60%;
-  padding: 100px;
+  /* opacity: 80%; */
+  padding: 30px;
   margin: 20px;
-  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-h1,h2 {
-    font-family: 'red hat mono', sans-serif;
+
+header {
+  display: flex;
+  background-color: #ffffff;
+  flex-flow: row;
+  align-items: center;
+  opacity: 85%; 
+  padding: 30px;
+  margin: 20px;
+}
+h1,
+h2 {
+  font-family: "red hat mono", sans-serif;
+  font-f
+}
+header > div {
+  text-align: center;
+
+  /* flex: 3 300px;  */
+}
+header > img {
+  /* flex: 1 100px;  */
+  opacity: 100%;
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  transform: scale(0.5);
+  border: solid 5px;
+  box-shadow: 10px 5px 5px black;
 }
