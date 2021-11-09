@@ -2,38 +2,48 @@
 body {
   background-image: url("https://ak.picdn.net/shutterstock/videos/14827933/thumb/1.jpg");
   background-attachment: fixed;
-  /* opacity: 80%; */
-  padding: 30px;
-  margin: 20px;
+  font-family: "red hat mono", sans-serif;
+}
+#background-second {
+  background-color: white;
+  opacity: 90%;
+  padding: 0px 15px;
+  margin: 50px 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 header {
   display: flex;
-  background-color: #ffffff;
   flex-flow: row;
   align-items: center;
-  opacity: 85%; 
-  padding: 30px;
-  margin: 20px;
-}
-h1,
-h2 {
-  font-family: "red hat mono", sans-serif;
-  font-f
 }
 header > div {
   text-align: center;
-
-  /* flex: 3 300px;  */
+  text-shadow: rgb(153, 153, 151) 1px 0 10px;
 }
+h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+h2 {
+  text-transform: lowercase;
+}
+
 header > img {
-  /* flex: 1 100px;  */
-  opacity: 100%;
   border-radius: 50%;
   width: 500px;
   height: 500px;
   transform: scale(0.5);
   border: solid 5px;
   box-shadow: 10px 5px 5px black;
+}
+section {
+  padding: 0px 30px;
+  /* margin: 50px 50px; */
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.second-section {
+  display: flex;
+  flex-direction: column ;
 }
