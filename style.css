@@ -39,11 +39,10 @@ header > img {
 }
 section > p {
   padding: 0px 30px;
-  /* margin: 50px 50px; */
   text-align: center;
-  font-size: 18px;
+  font-size: 1em;
   font-weight: 600;
-  line-height: 2em;
+  line-height: 1.2em;
 }
 .second-section {
   display: flex;
@@ -64,9 +63,14 @@ section > div {
   font-weight: 500;
   border: solid black 0.5px;
   border-radius: 10px;
-       align-items: center;
+  align-items: center;
   justify-content: center;  
-      text-align: center;
-
+  text-align: center;
 }
-
+section :nth-of-type(15) {
+margin-top: 4em;
+  flex: 600px;
+}
+footer {
+  text-align: center;
+}
